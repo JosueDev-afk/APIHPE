@@ -35,5 +35,11 @@
     "url": "https://github.com/JosueDev-afk/API-HPE.git"
   },
 
-  "description": ""
+  "description": "",
+
+    "pre-commit": [
+      "ts.check",
+      "build",
+      "add-build"
+  ]
 }
